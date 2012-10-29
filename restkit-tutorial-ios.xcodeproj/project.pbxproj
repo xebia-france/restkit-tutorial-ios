@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543473CE163C9CDB00A622FD /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473C6163C9CDB00A622FD /* empty.png */; };
+		543473CF163C9CDB00A622FD /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473C7163C9CDB00A622FD /* error.png */; };
+		543473D0163C9CDB00A622FD /* github-gravatar-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473C8163C9CDB00A622FD /* github-gravatar-placeholder.png */; };
+		543473D1163C9CDB00A622FD /* github-gravatar-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473C9163C9CDB00A622FD /* github-gravatar-placeholder@2x.png */; };
+		543473D2163C9CDB00A622FD /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473CA163C9CDB00A622FD /* github.png */; };
+		543473D3163C9CDB00A622FD /* github@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473CB163C9CDB00A622FD /* github@2x.png */; };
+		543473D4163C9CDB00A622FD /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473CC163C9CDB00A622FD /* offline.png */; };
+		543473D5163C9CDB00A622FD /* RestKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 543473CD163C9CDB00A622FD /* RestKitResources.bundle */; };
+		543473D8163C9D0C00A622FD /* bg_home_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473D6163C9D0C00A622FD /* bg_home_pattern.png */; };
+		543473D9163C9D0C00A622FD /* bg_home_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 543473D7163C9D0C00A622FD /* bg_home_pattern@2x.png */; };
+		5434744B163D286D00A622FD /* GHUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54347449163D286D00A622FD /* GHUserTableViewController.m */; };
+		5434744F163D28A500A622FD /* GHUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5434744D163D28A500A622FD /* GHUserCell.m */; };
+		54347450163D28A500A622FD /* GHUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5434744E163D28A500A622FD /* GHUserCell.xib */; };
+		54347453163D2BA700A622FD /* github-repo.png in Resources */ = {isa = PBXBuildFile; fileRef = 54347451163D2BA700A622FD /* github-repo.png */; };
+		54347454163D2BA700A622FD /* github-repo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54347452163D2BA700A622FD /* github-repo@2x.png */; };
+		54347457163D2D5100A622FD /* dashed-separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 54347455163D2D5100A622FD /* dashed-separator.png */; };
+		54347458163D2D5100A622FD /* dashed-separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54347456163D2D5100A622FD /* dashed-separator@2x.png */; };
+		DB34D298166764C307F66692 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB34D634CDEFC782185D1E4D /* InfoPlist.strings */; };
+		DB34D32FBA091713C03A7915 /* UIImage+XBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34DF0589E00A67BF1E9344 /* UIImage+XBAdditions.m */; };
+		DB34D34FC5EF0F4569C9B1A2 /* UIColor+XBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34DC3328853DF17F77C041 /* UIColor+XBAdditions.m */; };
+		DB34D397E6F3D14EF13CFDD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34D28381A7DEDBCE641CCF /* Default@2x.png */; };
+		DB34D44D2883930A3FF85962 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34D614CEA96946AD7FFF11 /* Default.png */; };
+		DB34D44D67E95E42326EF63D /* NSDateFormatter+XBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34DF97232AD6C64CDFD400 /* NSDateFormatter+XBAdditions.m */; };
+		DB34D4F868692F4937BE26FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB34D198324C75BE5BFB7C76 /* Foundation.framework */; };
+		DB34D6496AAF8A3587580F8B /* NSError+XBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D22EA73712926B0E4AB8 /* NSError+XBAdditions.m */; };
+		DB34D6BF0C2A7AB6DE9D784E /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D4D60B64954BA927A77B /* GHUser.m */; };
+		DB34D701370F7243A8976C25 /* GHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D09B693EBFC737C23C35 /* GHRepository.m */; };
+		DB34D7992B0618AF38B3274F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB34D325C5332C498DDEFE90 /* UIKit.framework */; };
+		DB34D80F0F61A1F7347425A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB34D21DEE56D33E3452CBEA /* CoreGraphics.framework */; };
+		DB34D99012DD350A380A2C2A /* UIScreen+XBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34DD6B6E5C8ACC5834FA88 /* UIScreen+XBAdditions.m */; };
+		DB34DAA300AB04B84288FF0A /* GHRepositoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D26A33B26EF13A798B4F /* GHRepositoryTableViewController.m */; };
+		DB34DB6826412D3362E5BF82 /* GHRepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC7F0A2D190093D89678 /* GHRepositoryCell.xib */; };
+		DB34DC3A6BE827412416FBBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D7A5BE4D0E6ED46C1015 /* AppDelegate.m */; };
+		DB34DD20C1D17303644A277C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34DA7B4CA7321BD687B493 /* Default-568h@2x.png */; };
+		DB34DDB92959DCBAB791B7C5 /* GHRepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D20E0E0B200988A04DF8 /* GHRepositoryCell.m */; };
+		DB34DE02F01F4B9EF4B035AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D9DD59DDBA8221F84B89 /* main.m */; };
+		DB34DE4DB482BA359D59F2ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB34DE4BE8FF68707AC41468 /* MainStoryboard.storyboard */; };
+		FBF6CF92B8C7449DA4C466A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC6BAAFF1E643D1A979BC06 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AC6BAAFF1E643D1A979BC06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		450EB8385C164B45A2744462 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		543473C6163C9CDB00A622FD /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		543473C7163C9CDB00A622FD /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		543473C8163C9CDB00A622FD /* github-gravatar-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-gravatar-placeholder.png"; sourceTree = "<group>"; };
+		543473C9163C9CDB00A622FD /* github-gravatar-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-gravatar-placeholder@2x.png"; sourceTree = "<group>"; };
+		543473CA163C9CDB00A622FD /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		543473CB163C9CDB00A622FD /* github@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github@2x.png"; sourceTree = "<group>"; };
+		543473CC163C9CDB00A622FD /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
+		543473CD163C9CDB00A622FD /* RestKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RestKitResources.bundle; sourceTree = "<group>"; };
+		543473D6163C9D0C00A622FD /* bg_home_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_home_pattern.png; sourceTree = "<group>"; };
+		543473D7163C9D0C00A622FD /* bg_home_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_home_pattern@2x.png"; sourceTree = "<group>"; };
+		54347448163D286D00A622FD /* GHUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHUserTableViewController.h; path = Controller/GHUserTableViewController.h; sourceTree = SOURCE_ROOT; };
+		54347449163D286D00A622FD /* GHUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUserTableViewController.m; path = Controller/GHUserTableViewController.m; sourceTree = SOURCE_ROOT; };
+		5434744C163D28A500A622FD /* GHUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHUserCell.h; path = View/GHUserCell.h; sourceTree = SOURCE_ROOT; };
+		5434744D163D28A500A622FD /* GHUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUserCell.m; path = View/GHUserCell.m; sourceTree = SOURCE_ROOT; };
+		5434744E163D28A500A622FD /* GHUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GHUserCell.xib; path = View/GHUserCell.xib; sourceTree = SOURCE_ROOT; };
+		54347451163D2BA700A622FD /* github-repo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-repo.png"; sourceTree = "<group>"; };
+		54347452163D2BA700A622FD /* github-repo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-repo@2x.png"; sourceTree = "<group>"; };
+		54347455163D2D5100A622FD /* dashed-separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashed-separator.png"; sourceTree = "<group>"; };
+		54347456163D2D5100A622FD /* dashed-separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashed-separator@2x.png"; sourceTree = "<group>"; };
+		DB34D067A539FE3352AA1F42 /* restkit-tutorial-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "restkit-tutorial-ios-Prefix.pch"; sourceTree = "<group>"; };
+		DB34D09B693EBFC737C23C35 /* GHRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHRepository.m; path = ../Model/GHRepository.m; sourceTree = "<group>"; };
+		DB34D198324C75BE5BFB7C76 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB34D20E0E0B200988A04DF8 /* GHRepositoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHRepositoryCell.m; path = ../View/GHRepositoryCell.m; sourceTree = "<group>"; };
+		DB34D21DEE56D33E3452CBEA /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB34D22EA73712926B0E4AB8 /* NSError+XBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+XBAdditions.m"; path = "../Category/NSError+XBAdditions.m"; sourceTree = "<group>"; };
+		DB34D26A33B26EF13A798B4F /* GHRepositoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHRepositoryTableViewController.m; path = ../Controller/GHRepositoryTableViewController.m; sourceTree = "<group>"; };
+		DB34D28381A7DEDBCE641CCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB34D325C5332C498DDEFE90 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB34D353B3B7513C9897CDC4 /* GHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHUser.h; path = ../Model/GHUser.h; sourceTree = "<group>"; };
+		DB34D36F0970BFC783434689 /* UIScreen+XBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+XBAdditions.h"; path = "../Category/UIScreen+XBAdditions.h"; sourceTree = "<group>"; };
+		DB34D399AB0FD765CC0AAC03 /* NSDateFormatter+XBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+XBAdditions.h"; path = "../Category/NSDateFormatter+XBAdditions.h"; sourceTree = "<group>"; };
+		DB34D3A38AACAD8535EB4DC3 /* GHRepositoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHRepositoryTableViewController.h; path = ../Controller/GHRepositoryTableViewController.h; sourceTree = "<group>"; };
+		DB34D41FDE980AE4AE644716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB34D4D60B64954BA927A77B /* GHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUser.m; path = ../Model/GHUser.m; sourceTree = "<group>"; };
+		DB34D614CEA96946AD7FFF11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB34D7A5BE4D0E6ED46C1015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB34D872D43B4FC682CB09D2 /* GHRepositoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHRepositoryCell.h; path = ../View/GHRepositoryCell.h; sourceTree = "<group>"; };
+		DB34D9DD59DDBA8221F84B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB34D9FE6DD7A307DB8E4D43 /* UIColor+XBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+XBAdditions.h"; path = "../Category/UIColor+XBAdditions.h"; sourceTree = "<group>"; };
+		DB34DA7B4CA7321BD687B493 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB34DB19CE776239DA408D0B /* GHRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHRepository.h; path = ../Model/GHRepository.h; sourceTree = "<group>"; };
+		DB34DBF04F559872D88CE919 /* NSError+XBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+XBAdditions.h"; path = "../Category/NSError+XBAdditions.h"; sourceTree = "<group>"; };
+		DB34DC3328853DF17F77C041 /* UIColor+XBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XBAdditions.m"; path = "../Category/UIColor+XBAdditions.m"; sourceTree = "<group>"; };
+		DB34DC7F0A2D190093D89678 /* GHRepositoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GHRepositoryCell.xib; path = ../View/GHRepositoryCell.xib; sourceTree = "<group>"; };
+		DB34DD6B6E5C8ACC5834FA88 /* UIScreen+XBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+XBAdditions.m"; path = "../Category/UIScreen+XBAdditions.m"; sourceTree = "<group>"; };
+		DB34DE05C28D221D5FC3A631 /* restkit-tutorial-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "restkit-tutorial-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB34DE11DD4A7AD6E164ACFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB34DE4BE8FF68707AC41468 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DB34DF0589E00A67BF1E9344 /* UIImage+XBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XBAdditions.m"; path = "../Category/UIImage+XBAdditions.m"; sourceTree = "<group>"; };
+		DB34DF1C4B7BAF1E9A002DAD /* UIImage+XBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+XBAdditions.h"; path = "../Category/UIImage+XBAdditions.h"; sourceTree = "<group>"; };
+		DB34DF97232AD6C64CDFD400 /* NSDateFormatter+XBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+XBAdditions.m"; path = "../Category/NSDateFormatter+XBAdditions.m"; sourceTree = "<group>"; };
+		DB34DF987B09D95AC1AB6FC6 /* restkit-tutorial-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "restkit-tutorial-ios-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB34D2139FE359929ED4D56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34D7992B0618AF38B3274F /* UIKit.framework in Frameworks */,
+				DB34D4F868692F4937BE26FD /* Foundation.framework in Frameworks */,
+				DB34D80F0F61A1F7347425A7 /* CoreGraphics.framework in Frameworks */,
+				FBF6CF92B8C7449DA4C466A9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543473C4163C9CDB00A622FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				543473C5163C9CDB00A622FD /* Images */,
+				543473CD163C9CDB00A622FD /* RestKitResources.bundle */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		543473C5163C9CDB00A622FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				54347455163D2D5100A622FD /* dashed-separator.png */,
+				54347456163D2D5100A622FD /* dashed-separator@2x.png */,
+				54347451163D2BA700A622FD /* github-repo.png */,
+				54347452163D2BA700A622FD /* github-repo@2x.png */,
+				543473D6163C9D0C00A622FD /* bg_home_pattern.png */,
+				543473D7163C9D0C00A622FD /* bg_home_pattern@2x.png */,
+				543473C6163C9CDB00A622FD /* empty.png */,
+				543473C7163C9CDB00A622FD /* error.png */,
+				543473C8163C9CDB00A622FD /* github-gravatar-placeholder.png */,
+				543473C9163C9CDB00A622FD /* github-gravatar-placeholder@2x.png */,
+				543473CA163C9CDB00A622FD /* github.png */,
+				543473CB163C9CDB00A622FD /* github@2x.png */,
+				543473CC163C9CDB00A622FD /* offline.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DB34D76A59FAC9E37D6D52FF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB34DD6B6E5C8ACC5834FA88 /* UIScreen+XBAdditions.m */,
+				DB34D36F0970BFC783434689 /* UIScreen+XBAdditions.h */,
+				DB34DC3328853DF17F77C041 /* UIColor+XBAdditions.m */,
+				DB34D9FE6DD7A307DB8E4D43 /* UIColor+XBAdditions.h */,
+				DB34DF0589E00A67BF1E9344 /* UIImage+XBAdditions.m */,
+				DB34DF1C4B7BAF1E9A002DAD /* UIImage+XBAdditions.h */,
+				DB34D22EA73712926B0E4AB8 /* NSError+XBAdditions.m */,
+				DB34DBF04F559872D88CE919 /* NSError+XBAdditions.h */,
+				DB34DF97232AD6C64CDFD400 /* NSDateFormatter+XBAdditions.m */,
+				DB34D399AB0FD765CC0AAC03 /* NSDateFormatter+XBAdditions.h */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		DB34D824FA54BE745CB27F09 = {
+			isa = PBXGroup;
+			children = (
+				DB34DB21BBA5DC2FDF43B286 /* Products */,
+				DB34DFE9D62A1F400597A10C /* Frameworks */,
+				DB34DFDC59E010F6D0A82272 /* restkit-tutorial-ios */,
+				450EB8385C164B45A2744462 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DB34D8EC6021CF9E3A9BD20F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB34D4D60B64954BA927A77B /* GHUser.m */,
+				DB34D353B3B7513C9897CDC4 /* GHUser.h */,
+				DB34D09B693EBFC737C23C35 /* GHRepository.m */,
+				DB34DB19CE776239DA408D0B /* GHRepository.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DB34D8F935D15AC8BD5763C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5434744C163D28A500A622FD /* GHUserCell.h */,
+				5434744D163D28A500A622FD /* GHUserCell.m */,
+				5434744E163D28A500A622FD /* GHUserCell.xib */,
+				DB34D872D43B4FC682CB09D2 /* GHRepositoryCell.h */,
+				DB34D20E0E0B200988A04DF8 /* GHRepositoryCell.m */,
+				DB34DC7F0A2D190093D89678 /* GHRepositoryCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DB34D9599F9065B81189A90A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB34D3A38AACAD8535EB4DC3 /* GHRepositoryTableViewController.h */,
+				DB34D26A33B26EF13A798B4F /* GHRepositoryTableViewController.m */,
+				54347448163D286D00A622FD /* GHUserTableViewController.h */,
+				54347449163D286D00A622FD /* GHUserTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB34DB21BBA5DC2FDF43B286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB34DE05C28D221D5FC3A631 /* restkit-tutorial-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB34DD587E179D55B49D709E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB34DA7B4CA7321BD687B493 /* Default-568h@2x.png */,
+				DB34D28381A7DEDBCE641CCF /* Default@2x.png */,
+				DB34D614CEA96946AD7FFF11 /* Default.png */,
+				DB34D067A539FE3352AA1F42 /* restkit-tutorial-ios-Prefix.pch */,
+				DB34D9DD59DDBA8221F84B89 /* main.m */,
+				DB34D634CDEFC782185D1E4D /* InfoPlist.strings */,
+				DB34DF987B09D95AC1AB6FC6 /* restkit-tutorial-ios-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB34DFDC59E010F6D0A82272 /* restkit-tutorial-ios */ = {
+			isa = PBXGroup;
+			children = (
+				543473C4163C9CDB00A622FD /* Resource */,
+				DB34DE4BE8FF68707AC41468 /* MainStoryboard.storyboard */,
+				DB34D41FDE980AE4AE644716 /* AppDelegate.h */,
+				DB34D7A5BE4D0E6ED46C1015 /* AppDelegate.m */,
+				DB34DD587E179D55B49D709E /* Supporting Files */,
+				DB34D76A59FAC9E37D6D52FF /* Category */,
+				DB34D9599F9065B81189A90A /* Controller */,
+				DB34D8EC6021CF9E3A9BD20F /* Model */,
+				DB34D8F935D15AC8BD5763C1 /* View */,
+			);
+			path = "restkit-tutorial-ios";
+			sourceTree = "<group>";
+		};
+		DB34DFE9D62A1F400597A10C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB34D21DEE56D33E3452CBEA /* CoreGraphics.framework */,
+				DB34D198324C75BE5BFB7C76 /* Foundation.framework */,
+				DB34D325C5332C498DDEFE90 /* UIKit.framework */,
+				3AC6BAAFF1E643D1A979BC06 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB34D1F05E68975754F3D8CA /* restkit-tutorial-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB34DDCF2239641B5CC01B72 /* Build configuration list for PBXNativeTarget "restkit-tutorial-ios" */;
+			buildPhases = (
+				DB34DB7792B66B746F7B788C /* Sources */,
+				DB34D2139FE359929ED4D56F /* Frameworks */,
+				DB34DB24204A771D123DA338 /* Resources */,
+				DDE81BF4D74E4C03AD35733A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "restkit-tutorial-ios";
+			productName = "restkit-tutorial-ios";
+			productReference = DB34DE05C28D221D5FC3A631 /* restkit-tutorial-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB34D6F81436579AE4D0C034 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DB34D3365359005D020CC4F5 /* Build configuration list for PBXProject "restkit-tutorial-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB34D824FA54BE745CB27F09;
+			productRefGroup = DB34DB21BBA5DC2FDF43B286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB34D1F05E68975754F3D8CA /* restkit-tutorial-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB34DB24204A771D123DA338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34D298166764C307F66692 /* InfoPlist.strings in Resources */,
+				DB34D44D2883930A3FF85962 /* Default.png in Resources */,
+				DB34D397E6F3D14EF13CFDD8 /* Default@2x.png in Resources */,
+				DB34DD20C1D17303644A277C /* Default-568h@2x.png in Resources */,
+				DB34DE4DB482BA359D59F2ED /* MainStoryboard.storyboard in Resources */,
+				DB34DB6826412D3362E5BF82 /* GHRepositoryCell.xib in Resources */,
+				543473CE163C9CDB00A622FD /* empty.png in Resources */,
+				543473CF163C9CDB00A622FD /* error.png in Resources */,
+				543473D0163C9CDB00A622FD /* github-gravatar-placeholder.png in Resources */,
+				543473D1163C9CDB00A622FD /* github-gravatar-placeholder@2x.png in Resources */,
+				543473D2163C9CDB00A622FD /* github.png in Resources */,
+				543473D3163C9CDB00A622FD /* github@2x.png in Resources */,
+				543473D4163C9CDB00A622FD /* offline.png in Resources */,
+				543473D5163C9CDB00A622FD /* RestKitResources.bundle in Resources */,
+				543473D8163C9D0C00A622FD /* bg_home_pattern.png in Resources */,
+				543473D9163C9D0C00A622FD /* bg_home_pattern@2x.png in Resources */,
+				54347450163D28A500A622FD /* GHUserCell.xib in Resources */,
+				54347453163D2BA700A622FD /* github-repo.png in Resources */,
+				54347454163D2BA700A622FD /* github-repo@2x.png in Resources */,
+				54347457163D2D5100A622FD /* dashed-separator.png in Resources */,
+				54347458163D2D5100A622FD /* dashed-separator@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDE81BF4D74E4C03AD35733A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB34DB7792B66B746F7B788C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34DE02F01F4B9EF4B035AC /* main.m in Sources */,
+				DB34DC3A6BE827412416FBBC /* AppDelegate.m in Sources */,
+				DB34D701370F7243A8976C25 /* GHRepository.m in Sources */,
+				DB34D6BF0C2A7AB6DE9D784E /* GHUser.m in Sources */,
+				DB34D44D67E95E42326EF63D /* NSDateFormatter+XBAdditions.m in Sources */,
+				DB34D6496AAF8A3587580F8B /* NSError+XBAdditions.m in Sources */,
+				DB34DDB92959DCBAB791B7C5 /* GHRepositoryCell.m in Sources */,
+				DB34DAA300AB04B84288FF0A /* GHRepositoryTableViewController.m in Sources */,
+				DB34D32FBA091713C03A7915 /* UIImage+XBAdditions.m in Sources */,
+				DB34D34FC5EF0F4569C9B1A2 /* UIColor+XBAdditions.m in Sources */,
+				DB34D99012DD350A380A2C2A /* UIScreen+XBAdditions.m in Sources */,
+				5434744B163D286D00A622FD /* GHUserTableViewController.m in Sources */,
+				5434744F163D28A500A622FD /* GHUserCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB34D634CDEFC782185D1E4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB34DE11DD4A7AD6E164ACFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB34D2B46F52B7B3C99B1992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB34D4AE3E1FC73684BADAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450EB8385C164B45A2744462 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restkit-tutorial-ios/restkit-tutorial-ios-Prefix.pch";
+				INFOPLIST_FILE = "restkit-tutorial-ios/restkit-tutorial-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB34D4B38841C585142E0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB34DE94332ACBC08DBEBCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450EB8385C164B45A2744462 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "restkit-tutorial-ios/restkit-tutorial-ios-Prefix.pch";
+				INFOPLIST_FILE = "restkit-tutorial-ios/restkit-tutorial-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB34D3365359005D020CC4F5 /* Build configuration list for PBXProject "restkit-tutorial-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34D2B46F52B7B3C99B1992 /* Release */,
+				DB34D4B38841C585142E0781 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB34DDCF2239641B5CC01B72 /* Build configuration list for PBXNativeTarget "restkit-tutorial-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34DE94332ACBC08DBEBCC2 /* Release */,
+				DB34D4AE3E1FC73684BADAFC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB34D6F81436579AE4D0C034 /* Project object */;
+}
